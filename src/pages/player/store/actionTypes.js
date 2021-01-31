@@ -1,0 +1,9 @@
+export const CHANGE_CURRENT_SONG = 'player/change_current_song';
+export const CHANGE_PLAY_LIST = 'player/change_play_list';
+export const CHANGE_CURRENT_SONG_INDEX = 'player/change_current_song_index';
+export const CHANGE_SEQUENCE = 'player/cahnge_sequence';
+export const CHANGE_LYRIC_LIST = 'player/change_lyric_list';
+export const CHANGE_CURRENT_LYRIC_INDEX = 'player/change_current_lyric_index';
+export const CHANGE_SOUND_SIZE = 'player/change_sound_size';
+export const CHANGE_IS_SHOW_PLAY_PANEL = 'player/change_is_show_play_panel';
+export const CHANGE_IS_SHOW_SOUND = 'player/change_is_show_sound';

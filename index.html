@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const parseExp = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/
+    let lyric = "[00:00.000] 作词 : 毛不易\n[00:00.811] 作曲 : 毛不易\n[00:01.622]编曲Arranger ：赵兆\n[00:02.496]\n[00:31.926]当你走进这欢乐场\n[00:36.109]背上所有的梦与想\n[00:40.396]各色的脸上各色的妆\n[00:44.692]没人记得你的模样\n[00:48.226]\n[00:48.979]三巡酒过你在角落\n[00:53.247]固执地唱着苦涩的歌\n[00:57.498]听它在喧嚣里被淹没\n[01:01.443]你拿起酒杯对自己说\n[01:05.871]\n[01:08.125]一杯敬朝阳 一杯敬月光\n[01:12.148]唤醒我的向往 温柔了寒窗\n[01:15.9]于是可以不回头地逆风飞翔\n[01:20.722]不怕心头有雨 眼底有霜\n[01:24.293]\n[01:25.074]一杯敬故乡 一杯敬远方\n[01:29.277]守着我的善良 催着我成长\n[01:33.113]所以南北的路从此不再漫长\n[01:37.9]灵魂不再无处安放\n[01:44.362]\n[02:03.742]躁动不安的座上客\n[02:07.861]自以为是地表演着\n[02:12.4]伪装着 舞蹈着 疲惫着\n[02:15.946]你拿起酒杯对自己说\n[02:20.795]一杯敬朝阳 一杯敬月光\n[02:25.054]唤醒我的向往 温柔了寒窗\n[02:28.831]于是可以不回头地逆风飞翔\n[02:33.496]不怕心头有雨 眼底有霜\n[02:37.8]一杯敬故乡 一杯敬远方\n[02:37.2]\n[02:42.156]守着我的善良 催着我成长\n[02:45.916]所以南北的路从此不再漫长\n[02:50.748]灵魂不再无处安放\n[03:01.536]一杯敬明天 一杯敬过往\n[02:55.997]\n[03:05.748]支撑我的身体 厚重了肩膀\n[03:09.483]虽然从不相信所谓山高水长\n[03:14.306]人生苦短何必念念不忘\n[03:18.667]一杯敬自由 一杯敬死亡\n[03:18.252]\n[03:22.9]宽恕我的平凡 驱散了迷惘\n[03:26.665]好吧天亮之后总是潦草离场\n[03:31.433]清醒的人最荒唐\n[03:38.106]清醒的人最荒唐\n[03:48.602]制作人Producer：李健 赵兆\n[03:48.299]\n[03:48.751]手风琴Accordion：许笑男\n[03:48.940]键盘Keyboard：赵兆\n[03:49.101]吉他Guitar：薛峰\n[03:49.298]贝斯Bass：韩阳\n[03:49.471]鼓Drum：武勇恒\n[03:49.637]合音Backing Vocal：梁古驰\n[03:49.854]弦乐Strings：国际首席爱乐乐团International Philharmonic Orchestra\n[03:50.031]Mixing：李游\n[03:50.216]母带Mastering：Joe LaPorta .（Sterling . NY）\n[03:50.421]录音棚Studio：55TEC . Beijing\n[03:50.598]录音Recording：李游 李杨\n[03:50.788]人声录音Vocal Recording：李杨\n[03:50.988]人声编辑Vocal Editing：李杨\n[03:51.163]录音助理Recording Assistants：郭舒文 邢铜\n[03:51.315]音乐制作发行produced and distributed: 哇唧唧哇×智慧大狗\n[02:452]你拿起酒杯对自己说\n";
+
+    function parseLyric(lyricString) {
+      const lineStrings = lyricString.split("\n");
+      const lyrics = [];
+      // for (let line of lineStrings) {
+      //   if (line) {
+      //     const lrcContent = line.replace(parseExp, '').trim();
+      //     const timeResult = parseExp.exec(line);
+      //     const milliseconds = timeResult && timeResult[3].length === 3 ? timeResult[3] * 1 : timeResult[3] * 10
+      //     const lrcTime = timeResult && timeResult[1] * 60 * 1000 + timeResult[2] * 1000 + milliseconds;
+      //     lyrics.push({
+      //       content: lrcContent,
+      //       time: lrcTime
+      //     })
+      //   }
+      // }
+      // 歌词可能不是按照时间顺序排的
+      // let sortArr = lyrics.sort((a, b) => a.time - b.time);
+      let sortArr = []
+      return sortArr;
+    }
+
+
+    // function foo(lyricString) {
+    //   console.log(lyricString.split('\n'));
+    // }
+
+    // foo(lyric);
+
+    lyric = lyric.split('\n');
+
+    for(let i = 0; i < lyric.length; i++) {
+      console.log(lyric[i]);
+    }
+  </script>
+</body>
+
+</html>
