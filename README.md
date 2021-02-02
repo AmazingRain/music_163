@@ -6,11 +6,13 @@
 - 使用```axios```发送网络请求
 - 使用```react-router```，借助```react-router-config```完成路由的集中映射管理
 - 使用```redux```进行数据的集中管理
-- 通过```redux-thunk```在```redux````进行异步请求
+- 通过```redux-thunk```在```redux```进行异步请求
 - 通过```pm2```对后台服务进行进程守护
 
 后台服务借助：[NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=%e7%81%b5%e6%84%9f%e6%9d%a5%e8%87%aa)
 ## 完成功能
+
+> 由于网络限制，也可访问[传送门](https://blog.csdn.net/qq_44162474/article/details/113498854)
 
 ### 推荐页面
 
